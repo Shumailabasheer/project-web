@@ -1,0 +1,5 @@
+/* ///////////////////// hero section */
+
+.hero .main{
+    flex-direction: column-reverse;
+}

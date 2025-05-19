@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    text-decoration: none;
+
+
+}
+/* //////// Hero section start */
+
+.hero .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    min-height: 40vh;
+    margin-left: 20px;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.hero .heroImg {
+    width: 40%;
+    height: 400px;
+    clip-path: polygon(25% 0%, 99% 0%, 100% 100%, 25% 100%, 0% 80%);
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.hero .content {
+    width: 50%;
+    /* background-color: blueviolet; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 2em;
+}
+
+.hero .content h2 {
+    font-size: 4em;
+    color: rgb(22, 23, 25);
+}
+
+.hero .content p {
+    color: rgba(35, 34, 34, 0.897);
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+
+
+.btns button {
+    border: none;
+    padding: 1em 3em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.btns .btn1 {
+    background-color: rgb(60, 132, 241);
+    color: white;
+}
+
+.btns .btn1:hover {
+    background-color: transparent;
+    color: rgb(45, 53, 191);
+    border: 1px solid rgb(97, 125, 236);
+}
+
+
+
+/* //////// Hero section end */
+
+.servics {
+    background-color: rgba(227, 225, 225, 0.701);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+
+  
+}
+
+h1 span {
+    color: blueviolet;
+}
+
+
+.servics .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 7em;
+}
+
+.card {
+    width: 270px;
+    height: 270px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    /* transition:
+        background-color .5s ease-in-out,
+        height 0.5s ease-in-out,
+        width 0.5s ease-in-out; */
+}
+
+/* .card:hover {
+    background-color: black;
+    width: 275px;
+    height: 275px;
+}
+
+.card:hover h3 {
+    color: white;
+} */
+
+.card i {
+    font-size: 3em;
+    color: blueviolet;
+}
+
+.card p {
+    width: 80%;
+    text-align: center;
+    color: rgb(118, 109, 126);
+}
+.Images{
+    width:200px;
+    height:150px;
+    
+}
+p a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: .5em;
+     
+}
+p:hover a{
+    color: rgb(223, 67, 152);
+    text-decoration: underline;
+
+}
